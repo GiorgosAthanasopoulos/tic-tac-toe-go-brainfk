@@ -16,6 +16,7 @@ type (
 
 // SETTINGS
 const (
+	// WARNING: DO NOT CHANGE
 	WINDOWS               string = "windows"
 	WINDOWS_CLEAR_COMMAND string = "cls"
 	LINUX                 string = "linux"
@@ -58,6 +59,8 @@ const (
 	INFO_DRAW_COLOR       FgColor = ANSI_CYAN
 	ERROR_DRAW_COLOR      FgColor = ANSI_RED
 
+	// WARNING: CHANGING THE FOLLOWING SETTINGS REQUIRE CODE CHANGES IN ORDER
+	// FOR IT TO WORK PROPERLY
 	WINNER_NONE WINNER = "N"
 	WINNER_DRAW WINNER = "D"
 	WINNER_X    WINNER = "X"
